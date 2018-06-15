@@ -8,6 +8,9 @@
     "start": "node app.js",
     "test": "mocha --reporter spec"
   },
+  "engines": {
+    "node": ">=4.2.4"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/derekprice/link-header-creator.git"
