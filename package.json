@@ -1,0 +1,28 @@
+{
+  "name": "link-header-creator",
+  "version": "0.1.0",
+  "description": "This package provides an easy way to build a Link header for paginated API responses.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "mocha --reporter spec"
+  },
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derekprice/link-header-creator.git"
+  },
+  "author": "Derek Price",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derekprice/link-header-creator/issues"
+  },
+  "homepage": "https://github.com/derekprice/link-header-creator#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
